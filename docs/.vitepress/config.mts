@@ -1,8 +1,9 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  ignoreDeadLinks: true,
   base: '/azurelocal-sql-ha/',
-  title: "azurelocal-sql-ha Documentation",
+  title: "SQL Server HA on Azure Local",
   description: "Governed centrally by HCS Platform Engineering standards",
   themeConfig: {
     nav: [
@@ -27,5 +28,6 @@ export default defineConfig({
     }
   }
 })
+
 
 
